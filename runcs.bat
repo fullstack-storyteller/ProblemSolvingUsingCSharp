@@ -4,11 +4,14 @@ echo Recevied filename: %filename%
 
 if %filename:.cs=%==%filename%    set filename=%filename%.cs
 
-csc %filename%
-
 set executable=%filename:.cs=.exe%
 
-%executable%
+if exist %executable% del /f %executable%
+
+csc %filename%
+
+if exist %executable% %executable%
+if not exist %executable% set /p exit=%executable% not found or created!! Press enter to continue...
 
 set /p exit=Press enter to exit...
 
