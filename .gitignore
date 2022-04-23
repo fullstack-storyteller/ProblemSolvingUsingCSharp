@@ -3,7 +3,7 @@
 
 ### Executable ###
 *.app
-*.bat
+#*.bat
 *.cgi
 *.com
 *.exe
