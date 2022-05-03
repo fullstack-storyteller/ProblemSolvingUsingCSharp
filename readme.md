@@ -18,4 +18,8 @@ Files similar to `runcs.bat`, you can find [here](https://github.com/fullstack-s
 - Setup an system environment variable named `Path`. You can create new such variable or append the location of the newly created .bat file to the list of locations already present.
 - Save the dialog box and now you are ready to execute the command using the .bat file name itself, just like the `runcs.bat` file.
 
+**Note:** Remember that the commands written in the .bat files amy themselves need to be set up. For example, the `csc filename.cs` command needs to access a system environment variables which will help the command line find where the C# compiler is present. In my PC, we have the below locations for environment variables.
+
+![environemnt vars](./images/1.png)
+
 ### Ensure proper note-taking and Programming examples
