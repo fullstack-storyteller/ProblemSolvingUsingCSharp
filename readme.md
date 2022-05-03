@@ -22,4 +22,8 @@ Files similar to `runcs.bat`, you can find [here](https://github.com/fullstack-s
 
 ![environemnt vars](./images/2.png)
 
+## Resources and References
+
+1. Introduction to Algorithms - Cormen
+
 ### Ensure proper note-taking and Programming examples
