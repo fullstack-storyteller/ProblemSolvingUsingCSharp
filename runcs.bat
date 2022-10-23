@@ -11,7 +11,7 @@ if exist %executable% del /f %executable%
 csc %filename%
 
 if exist %executable% %executable%
-if not exist %executable% set /p exit=%executable% not found or created!! Press enter to continue...
+:: if not exist %executable% set exit=%executable% not found or created!!
 
 set /p exit=Press enter to exit...
 

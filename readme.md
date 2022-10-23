@@ -20,6 +20,8 @@ Files similar to `runcs.bat`, you can find [here](https://github.com/fullstack-s
 
 **Note:** Remember that the commands written in the .bat files amy themselves need to be set up. For example, the `csc filename.cs` command needs to access a system environment variables which will help the command line find where the C# compiler is present. In my PC, we have the below locations for environment variables.
 
+**Note:** The C Sharp Compiler will be present in `C:\Windows\Microsoft.NET\Framework64\v4.0.30319` by default.
+
 ![environemnt vars](./images/2.png)
 
 ## Resources and References
