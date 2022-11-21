@@ -13,7 +13,7 @@ csc %filename%
 if exist %executable% %executable%
 :: if not exist %executable% set exit=%executable% not found or created!!
 
-set /p exit=Press enter to exit...
+:: set /p exit=Press enter to exit...
 
 :: no space before or after = sign
 :: https://www.tutorialspoint.com/batch_script/batch_script_string_concatenation.htm
